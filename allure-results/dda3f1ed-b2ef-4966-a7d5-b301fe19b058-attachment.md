@@ -1,0 +1,33 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e5]:
+      - generic [ref=e7]:
+        - img [ref=e8]
+        - generic [ref=e9]: Salesforce
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - generic [ref=e13]:
+            - generic [ref=e14]: Username
+            - textbox "Username" [active] [ref=e16]
+          - generic [ref=e17]: Password
+          - textbox "Password" [ref=e18]
+          - button "Log In to Sandbox" [ref=e19] [cursor=pointer]
+          - generic [ref=e20]:
+            - checkbox "Remember me" [ref=e21]
+            - generic [ref=e22]: Remember me
+        - link "Forgot Your Password?" [ref=e24] [cursor=pointer]:
+          - /url: /secur/forgotpassword.jsp?locale=us
+    - generic [ref=e25]: © 2025 Salesforce, Inc. All rights reserved.
+  - iframe [ref=e27]:
+    - generic [active] [ref=f1e1]:
+      - heading "Access Denied" [level=1] [ref=f1e2]
+      - text: You don't have permission to access "http://c.salesforce.com/login-messages/promos.html" on this server.
+      - paragraph [ref=f1e3]: "Reference #18.a847b5c.1758274935.35e95d4e"
+      - paragraph [ref=f1e4]: https://errors.edgesuite.net/18.a847b5c.1758274935.35e95d4e
+  - generic: Login
+  - iframe [ref=e28]:
+    
+```

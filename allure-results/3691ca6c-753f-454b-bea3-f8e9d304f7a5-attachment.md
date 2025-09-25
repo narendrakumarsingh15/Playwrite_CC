@@ -1,0 +1,340 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to Navigation" [ref=e4] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - link "Skip to Main Content" [ref=e5] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=e8]:
+        - generic [ref=e12]:
+          - button "Toggle Panel" [ref=e16] [cursor=pointer]:
+            - img [ref=e18] [cursor=pointer]
+            - img [ref=e27] [cursor=pointer]
+          - paragraph [ref=e41]: PreProd
+        - button "Show menu" [ref=e50] [cursor=pointer]:
+          - img [ref=e52] [cursor=pointer]
+          - generic [ref=e55] [cursor=pointer]: Show menu
+      - generic [ref=e56]:
+        - button "Search" [ref=e62]:
+          - img [ref=e64]
+          - text: Search...
+        - navigation "Global Header" [ref=e67]:
+          - list [ref=e69]:
+            - listitem [ref=e70]:
+              - group [ref=e71]:
+                - button "Add favorite" [ref=e73] [cursor=pointer]:
+                  - generic [ref=e74] [cursor=pointer]:
+                    - img [ref=e78] [cursor=pointer]
+                    - tooltip "Add favorite"
+                - button "Favorites list" [ref=e82] [cursor=pointer]:
+                  - generic [ref=e83] [cursor=pointer]:
+                    - img [ref=e87] [cursor=pointer]
+                    - tooltip "Favorites list"
+            - listitem [ref=e90]:
+              - button "Global Actions" [ref=e96] [cursor=pointer]:
+                - generic [ref=e97] [cursor=pointer]:
+                  - img [ref=e101] [cursor=pointer]
+                  - tooltip "Global Actions"
+            - listitem [ref=e104]:
+              - button "Guidance Center" [ref=e106] [cursor=pointer]:
+                - generic [ref=e107] [cursor=pointer]:
+                  - img [ref=e111] [cursor=pointer]
+                  - tooltip "Guidance Center"
+            - listitem [ref=e114]:
+              - button "Salesforce Help" [ref=e117] [cursor=pointer]:
+                - generic [ref=e118] [cursor=pointer]:
+                  - img [ref=e122] [cursor=pointer]
+                  - tooltip "Salesforce Help"
+            - listitem [ref=e125]:
+              - button "Setup" [ref=e131] [cursor=pointer]:
+                - generic [ref=e132] [cursor=pointer]:
+                  - img [ref=e136] [cursor=pointer]
+                  - tooltip "Setup"
+            - listitem [ref=e139]:
+              - button "Notifications" [ref=e142] [cursor=pointer]:
+                - generic [ref=e143] [cursor=pointer]:
+                  - img [ref=e148] [cursor=pointer]
+                  - tooltip "Notifications"
+            - listitem [ref=e152]:
+              - button "View profile" [ref=e155] [cursor=pointer]:
+                - generic [ref=e156] [cursor=pointer]:
+                  - tooltip "View profile"
+    - generic [ref=e160]:
+      - generic [ref=e163]:
+        - generic [ref=e165]:
+          - navigation "App" [ref=e166]:
+            - button "App Launcher" [ref=e168] [cursor=pointer]:
+              - generic [ref=e179] [cursor=pointer]: App Launcher
+          - heading "Customer Connect" [level=1] [ref=e180]
+        - navigation "Global" [ref=e184]:
+          - list [ref=e185]:
+            - listitem [ref=e186]:
+              - link "Home" [ref=e187] [cursor=pointer]:
+                - /url: /lightning/page/home
+                - generic [ref=e188] [cursor=pointer]: Home
+            - listitem [ref=e189]:
+              - link "Account Plans" [ref=e190] [cursor=pointer]:
+                - /url: /lightning/o/pqcrush__Account_Plan__c/home
+                - generic [ref=e191] [cursor=pointer]: Account Plans
+              - button "Account Plans List" [ref=e195] [cursor=pointer]:
+                - img [ref=e199] [cursor=pointer]
+                - generic [ref=e202] [cursor=pointer]: Account Plans List
+            - listitem [ref=e203]:
+              - link "Accounts" [ref=e204] [cursor=pointer]:
+                - /url: /lightning/o/Account/home
+                - generic [ref=e205] [cursor=pointer]: Accounts
+              - button "Accounts List" [ref=e209] [cursor=pointer]:
+                - img [ref=e213] [cursor=pointer]
+                - generic [ref=e216] [cursor=pointer]: Accounts List
+            - listitem [ref=e217]:
+              - link "Contacts" [ref=e218] [cursor=pointer]:
+                - /url: /lightning/o/Contact/home
+                - generic [ref=e219] [cursor=pointer]: Contacts
+              - button "Contacts List" [ref=e223] [cursor=pointer]:
+                - img [ref=e227] [cursor=pointer]
+                - generic [ref=e230] [cursor=pointer]: Contacts List
+            - listitem [ref=e231]:
+              - link "Call Lists" [ref=e232] [cursor=pointer]:
+                - /url: /lightning/o/TR1__Call_List__c/home
+                - generic [ref=e233] [cursor=pointer]: Call Lists
+              - button "Call Lists List" [ref=e237] [cursor=pointer]:
+                - img [ref=e241] [cursor=pointer]
+                - generic [ref=e244] [cursor=pointer]: Call Lists List
+            - listitem [ref=e245]:
+              - link "Job Leads" [ref=e246] [cursor=pointer]:
+                - /url: /lightning/o/TR1__Job_Leads__c/home
+                - generic [ref=e247] [cursor=pointer]: Job Leads
+              - button "Job Leads List" [ref=e251] [cursor=pointer]:
+                - img [ref=e255] [cursor=pointer]
+                - generic [ref=e258] [cursor=pointer]: Job Leads List
+            - listitem [ref=e259]:
+              - link "Jobs" [ref=e260] [cursor=pointer]:
+                - /url: /lightning/o/TR1__Job__c/home
+                - generic [ref=e261] [cursor=pointer]: Jobs
+              - button "Jobs List" [ref=e265] [cursor=pointer]:
+                - img [ref=e269] [cursor=pointer]
+                - generic [ref=e272] [cursor=pointer]: Jobs List
+            - listitem [ref=e273]:
+              - link "Job Board Applications" [ref=e274] [cursor=pointer]:
+                - /url: /lightning/o/TR1__Job_Board_Application__c/home
+                - generic [ref=e275] [cursor=pointer]: Job Board Applications
+              - button "Job Board Applications List" [ref=e279] [cursor=pointer]:
+                - img [ref=e283] [cursor=pointer]
+                - generic [ref=e286] [cursor=pointer]: Job Board Applications List
+            - listitem [ref=e287]:
+              - link "Shortlists" [ref=e288] [cursor=pointer]:
+                - /url: /lightning/o/TR1__Application_V2__c/home
+                - generic [ref=e289] [cursor=pointer]: Shortlists
+              - button "Shortlists List" [ref=e293] [cursor=pointer]:
+                - img [ref=e297] [cursor=pointer]
+                - generic [ref=e300] [cursor=pointer]: Shortlists List
+            - listitem [ref=e301]:
+              - link "Candidate Search" [ref=e302] [cursor=pointer]:
+                - /url: /lightning/n/Candidate_Search
+                - generic [ref=e303] [cursor=pointer]: Candidate Search
+            - listitem [ref=e304]:
+              - link "Placements" [ref=e305] [cursor=pointer]:
+                - /url: /lightning/o/TR1__Closing_Report__c/home
+                - generic [ref=e306] [cursor=pointer]: Placements
+              - button "Placements List" [ref=e310] [cursor=pointer]:
+                - img [ref=e314] [cursor=pointer]
+                - generic [ref=e317] [cursor=pointer]: Placements List
+            - listitem [ref=e318]:
+              - link "Reports" [ref=e319] [cursor=pointer]:
+                - /url: /lightning/o/Report/home
+                - generic [ref=e320] [cursor=pointer]: Reports
+              - button "Reports List" [ref=e324] [cursor=pointer]:
+                - img [ref=e328] [cursor=pointer]
+                - generic [ref=e331] [cursor=pointer]: Reports List
+            - listitem [ref=e332] [cursor=pointer]:
+              - link "Dashboards" [ref=e333] [cursor=pointer]:
+                - /url: /lightning/o/Dashboard/home
+                - generic [ref=e334] [cursor=pointer]: Dashboards
+              - button "Dashboards List" [ref=e338] [cursor=pointer]:
+                - img [ref=e342] [cursor=pointer]
+                - generic [ref=e345] [cursor=pointer]: Dashboards List
+            - listitem [ref=e346]:
+              - link "Sales Orders" [ref=e347] [cursor=pointer]:
+                - /url: /lightning/o/CAP_CC_Sales_Order__c/home
+                - generic [ref=e348] [cursor=pointer]: Sales Orders
+              - button "Sales Orders List" [ref=e352] [cursor=pointer]:
+                - img [ref=e356] [cursor=pointer]
+                - generic [ref=e359] [cursor=pointer]: Sales Orders List
+            - listitem [ref=e360]:
+              - button "Show more navigation items" [ref=e362] [cursor=pointer]:
+                - generic [ref=e363] [cursor=pointer]: More
+                - img [ref=e367] [cursor=pointer]
+                - generic [ref=e370] [cursor=pointer]: Show more navigation items
+            - listitem [ref=e371]:
+              - button "Edit nav items" [ref=e373] [cursor=pointer]:
+                - img [ref=e375] [cursor=pointer]
+                - generic [ref=e378] [cursor=pointer]: Edit nav items
+      - main [ref=e380]:
+        - iframe [ref=e388]:
+          - generic [ref=f1e9]:
+            - generic [ref=f1e12]:
+              - generic [ref=f1e13]:
+                - generic [ref=f1e15]:
+                  - img [ref=f1e18]
+                  - heading "Dashboard API_Processs_review" [level=1] [ref=f1e23]:
+                    - generic [ref=f1e24]: Dashboard
+                - group [ref=f1e32]:
+                  - button "Refresh" [ref=f1e33] [cursor=pointer]
+                  - button "Edit" [ref=f1e34] [cursor=pointer]
+                  - button "Subscribe" [ref=f1e35] [cursor=pointer]
+                  - button "More Dashboard Actions" [ref=f1e37] [cursor=pointer]:
+                    - img [ref=f1e38] [cursor=pointer]
+                    - generic [ref=f1e40] [cursor=pointer]: More Dashboard Actions
+              - generic [ref=f1e44]:
+                - generic [ref=f1e45]:
+                  - img [ref=f1e47]
+                  - strong [ref=f1e49]: Last refreshed 93 days ago. Refresh this dashboard to see the latest data.
+                - generic [ref=f1e50]:
+                  - generic [ref=f1e51]: As of 18-Jun-2025 08:09∙
+                  - generic [ref=f1e52]:
+                    - img [ref=f1e56] [cursor=pointer]
+                    - text: ∙
+                  - generic [ref=f1e58]: Viewing as Sebastien Raquillet
+            - generic [ref=f1e60]:
+              - article [ref=f1e63]:
+                - heading "API Error Trend" [level=2] [ref=f1e64]
+                - generic [ref=f1e66]:
+                  - button "Refresh \"API Error Trend\"" [ref=f1e67] [cursor=pointer]:
+                    - img [ref=f1e68] [cursor=pointer]
+                    - generic [ref=f1e70] [cursor=pointer]: Refresh "API Error Trend"
+                  - button "Expand \"API Error Trend\"" [ref=f1e71] [cursor=pointer]:
+                    - img [ref=f1e72] [cursor=pointer]
+                    - generic [ref=f1e74] [cursor=pointer]: Expand "API Error Trend"
+                - generic [ref=f1e75]:
+                  - generic:
+                    - generic:
+                      - button "Enable table equivalent for screen reader users" [ref=f1e79] [cursor=pointer]
+                      - list [ref=f1e80]:
+                        - 'button "API Service Log: Created Date 12/06/2025, Is Processed false, Record Count 7, 100% of 7 for 12/06/2025" [ref=f1e81]'
+                    - list [ref=f1e85]:
+                      - button "false" [ref=f1e86]
+                - generic [ref=f1e89]:
+                  - link "View Report (API_Error_Trend) for \"API Error Trend\"" [ref=f1e92] [cursor=pointer]:
+                    - /url: https://pagegroup--preprod.sandbox.lightning.force.com/one/one.app#/sObject/00O4J000004X6c4UAC/view
+                    - text: View Report (API_Error_Trend)
+                    - generic [ref=f1e93] [cursor=pointer]: for "API Error Trend"
+                  - generic [ref=f1e94]: As of 18-Jun-2025 08:09
+              - article [ref=f1e97]:
+                - heading "API Error Trend (Job Ref Nber error included)" [level=2] [ref=f1e98]
+                - generic [ref=f1e100]:
+                  - button "Refresh \"API Error Trend (Job Ref Nber error included)\"" [ref=f1e101] [cursor=pointer]:
+                    - img [ref=f1e102] [cursor=pointer]
+                    - generic [ref=f1e104] [cursor=pointer]: Refresh "API Error Trend (Job Ref Nber error included)"
+                  - button "Expand \"API Error Trend (Job Ref Nber error included)\"" [ref=f1e105] [cursor=pointer]:
+                    - img [ref=f1e106] [cursor=pointer]
+                    - generic [ref=f1e108] [cursor=pointer]: Expand "API Error Trend (Job Ref Nber error included)"
+                - generic [ref=f1e109]:
+                  - generic:
+                    - generic:
+                      - button "Enable table equivalent for screen reader users" [ref=f1e113] [cursor=pointer]
+                      - list [ref=f1e114]:
+                        - 'button "API Service Log: Created Date 12/06/2025, Is Processed false, Record Count 7, 100% of 7 for 12/06/2025" [ref=f1e115]'
+                    - list [ref=f1e119]:
+                      - button "false" [ref=f1e120]
+                - generic [ref=f1e123]:
+                  - link "View Report (API_Error_Trend_WithJobRef) for \"API Error Trend (Job Ref Nber error included)\"" [ref=f1e126] [cursor=pointer]:
+                    - /url: https://pagegroup--preprod.sandbox.lightning.force.com/one/one.app#/sObject/00O4J000004X6c9UAC/view
+                    - text: View Report (API_Error_Trend_WithJobRef)
+                    - generic [ref=f1e127] [cursor=pointer]: for "API Error Trend (Job Ref Nber error included)"
+                  - generic [ref=f1e128]: As of 18-Jun-2025 08:09
+              - article [ref=f1e131]:
+                - heading "Error message list for today" [level=2] [ref=f1e132]
+                - generic [ref=f1e134]:
+                  - button "Refresh \"Error message list for today\"" [ref=f1e135] [cursor=pointer]:
+                    - img [ref=f1e136] [cursor=pointer]
+                    - generic [ref=f1e138] [cursor=pointer]: Refresh "Error message list for today"
+                  - button "Expand \"Error message list for today\"" [ref=f1e139] [cursor=pointer]:
+                    - img [ref=f1e140] [cursor=pointer]
+                    - generic [ref=f1e142] [cursor=pointer]: Expand "Error message list for today"
+                - generic [ref=f1e144]: To view this table, refresh the dashboard.
+                - generic [ref=f1e146]:
+                  - link "View Report for \"Error message list for today\"" [ref=f1e149] [cursor=pointer]:
+                    - /url: https://pagegroup--preprod.sandbox.lightning.force.com/one/one.app#/sObject/00O4J000004X6cnUAC/view
+                    - text: View Report
+                    - generic [ref=f1e150] [cursor=pointer]: for "Error message list for today"
+                  - generic [ref=f1e151]: As of 18-Jun-2025 08:09
+              - article [ref=f1e154]:
+                - heading "API process stat (without job ref nber error)" [level=2] [ref=f1e155]
+                - generic [ref=f1e157]:
+                  - button "Refresh \"API process stat (without job ref nber error)\"" [ref=f1e158] [cursor=pointer]:
+                    - img [ref=f1e159] [cursor=pointer]
+                    - generic [ref=f1e161] [cursor=pointer]: Refresh "API process stat (without job ref nber error)"
+                  - button "Expand \"API process stat (without job ref nber error)\"" [ref=f1e162] [cursor=pointer]:
+                    - img [ref=f1e163] [cursor=pointer]
+                    - generic [ref=f1e165] [cursor=pointer]: Expand "API process stat (without job ref nber error)"
+                - generic [ref=f1e166]:
+                  - generic:
+                    - generic:
+                      - button "Enable table equivalent for screen reader users" [ref=f1e170] [cursor=pointer]
+                      - list [ref=f1e171]:
+                        - 'button "API Service Log: Created Date 19/06/2025, Is Processed false, Record Count 15, 83.33% of 18 for 19/06/2025" [ref=f1e172]'
+                    - list [ref=f1e176]:
+                      - button "false" [ref=f1e177]
+                - generic [ref=f1e180]:
+                  - link "View Report (API-Service-Logs-Ratio) for \"API process stat (without job ref nber error)\"" [ref=f1e183] [cursor=pointer]:
+                    - /url: https://pagegroup--preprod.sandbox.lightning.force.com/one/one.app#/sObject/00O4J000004WLZHUA4/view
+                    - text: View Report (API-Service-Logs-Ratio)
+                    - generic [ref=f1e184] [cursor=pointer]: for "API process stat (without job ref nber error)"
+                  - generic [ref=f1e185]: As of 24-Jun-2025 12:16
+              - article [ref=f1e188]:
+                - heading "CV Missing Alert" [level=2] [ref=f1e189]
+                - generic [ref=f1e191]:
+                  - button "Refresh \"CV Missing Alert\"" [ref=f1e192] [cursor=pointer]:
+                    - img [ref=f1e193] [cursor=pointer]
+                    - generic [ref=f1e195] [cursor=pointer]: Refresh "CV Missing Alert"
+                  - button "Expand \"CV Missing Alert\"" [ref=f1e196] [cursor=pointer]:
+                    - img [ref=f1e197] [cursor=pointer]
+                    - generic [ref=f1e199] [cursor=pointer]: Expand "CV Missing Alert"
+                - generic [ref=f1e200]:
+                  - generic:
+                    - generic:
+                      - button "Enable table equivalent for screen reader users" [ref=f1e204] [cursor=pointer]
+                      - list [ref=f1e205]:
+                        - 'button "Value: 0,In Range:" [ref=f1e206]'
+                - generic [ref=f1e209]:
+                  - link "View Report (Error-CV-Missing) for \"CV Missing Alert\"" [ref=f1e212] [cursor=pointer]:
+                    - /url: https://pagegroup--preprod.sandbox.lightning.force.com/one/one.app#/sObject/00O4J000004sSWmUAM/view
+                    - text: View Report (Error-CV-Missing)
+                    - generic [ref=f1e213] [cursor=pointer]: for "CV Missing Alert"
+                  - generic [ref=f1e214]: As of 18-Jun-2025 08:09
+              - article [ref=f1e217]:
+                - heading "Mypage Parsing" [level=2] [ref=f1e218]
+                - generic [ref=f1e220]:
+                  - button "Refresh \"Mypage Parsing\"" [ref=f1e221] [cursor=pointer]:
+                    - img [ref=f1e222] [cursor=pointer]
+                    - generic [ref=f1e224] [cursor=pointer]: Refresh "Mypage Parsing"
+                  - button "Expand \"Mypage Parsing\"" [ref=f1e225] [cursor=pointer]:
+                    - img [ref=f1e226] [cursor=pointer]
+                    - generic [ref=f1e228] [cursor=pointer]: Expand "Mypage Parsing"
+                - generic [ref=f1e229]:
+                  - generic:
+                    - generic:
+                      - button "Enable table equivalent for screen reader users" [ref=f1e233] [cursor=pointer]
+                      - list [ref=f1e234]:
+                        - 'button "API Service Log: Created Date 12/06/2025, Is Processed true, Record Count 6, 100% of 6 for 12/06/2025" [ref=f1e235]'
+                    - list [ref=f1e239]:
+                      - button "true" [ref=f1e240]
+                - generic [ref=f1e243]:
+                  - link "View Report (API-Service-Logs-Ratio-Mypage) for \"Mypage Parsing\"" [ref=f1e246] [cursor=pointer]:
+                    - /url: https://pagegroup--preprod.sandbox.lightning.force.com/one/one.app#/sObject/00O4J0000050k5FUAQ/view
+                    - text: View Report (API-Service-Logs-Ratio-Mypage)
+                    - generic [ref=f1e247] [cursor=pointer]: for "Mypage Parsing"
+                  - generic [ref=f1e248]: As of 18-Jun-2025 08:09
+    - generic:
+      - contentinfo "Utility Bar":
+        - list [ref=e391]:
+          - listitem [ref=e392]:
+            - button "Incoming SMS" [ref=e395] [cursor=pointer]:
+              - img [ref=e399] [cursor=pointer]
+              - generic [ref=e402] [cursor=pointer]: Incoming SMS
+  - generic:
+    - status
+```

@@ -1,0 +1,1141 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to Navigation" [ref=e4] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - link "Skip to Main Content" [ref=e5] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=e8]:
+        - generic [ref=e9]: "Sandbox: SIT |"
+        - link "Log out" [ref=e10] [cursor=pointer]:
+          - /url: /secur/logout.jsp
+      - generic [ref=e11]:
+        - button "Search" [ref=e17]:
+          - img [ref=e19]
+          - text: Search...
+        - navigation "Global Header" [ref=e22]:
+          - list [ref=e24]:
+            - listitem [ref=e25]:
+              - group [ref=e26]:
+                - button "This item doesn't support favorites" [ref=e28] [cursor=pointer]:
+                  - generic [ref=e29] [cursor=pointer]:
+                    - img [ref=e33] [cursor=pointer]
+                    - tooltip "This item doesn't support favorites"
+                - button "Favorites list" [ref=e37] [cursor=pointer]:
+                  - generic [ref=e38] [cursor=pointer]:
+                    - img [ref=e42] [cursor=pointer]
+                    - tooltip "Favorites list"
+            - listitem [ref=e45]:
+              - button [ref=e47]:
+                - img [ref=e51]
+            - listitem [ref=e54]:
+              - button "Guidance Center" [ref=e56] [cursor=pointer]:
+                - generic [ref=e57] [cursor=pointer]:
+                  - img [ref=e61] [cursor=pointer]
+                  - tooltip "Guidance Center"
+            - listitem [ref=e64]:
+              - button "Salesforce Help" [ref=e67] [cursor=pointer]:
+                - generic [ref=e68] [cursor=pointer]:
+                  - img [ref=e72] [cursor=pointer]
+                  - tooltip "Salesforce Help"
+            - listitem
+            - listitem [ref=e75]:
+              - button "Notifications" [ref=e78] [cursor=pointer]:
+                - generic [ref=e79] [cursor=pointer]:
+                  - img [ref=e84] [cursor=pointer]
+                  - tooltip "Notifications"
+            - listitem [ref=e88]:
+              - button "View profile" [ref=e91] [cursor=pointer]:
+                - generic [ref=e92] [cursor=pointer]:
+                  - tooltip "View profile"
+    - generic [ref=e96]:
+      - generic [ref=e99]:
+        - generic [ref=e101]:
+          - navigation "App" [ref=e102]:
+            - button "App Launcher" [ref=e104] [cursor=pointer]:
+              - generic [ref=e115] [cursor=pointer]: App Launcher
+          - heading "Customer Connect" [level=1] [ref=e116]
+        - navigation "Global" [ref=e120]:
+          - list [ref=e121]:
+            - listitem [ref=e122] [cursor=pointer]:
+              - link "Home" [active] [ref=e123] [cursor=pointer]:
+                - /url: /lightning/page/home
+                - generic [ref=e124] [cursor=pointer]: Home
+            - listitem [ref=e125]:
+              - link "Chatter" [ref=e126] [cursor=pointer]:
+                - /url: /lightning/page/chatter
+                - generic [ref=e127] [cursor=pointer]: Chatter
+            - listitem [ref=e128]:
+              - link "Accounts" [ref=e129] [cursor=pointer]:
+                - /url: /lightning/o/Account/home
+                - generic [ref=e130] [cursor=pointer]: Accounts
+              - button "Accounts List" [ref=e134] [cursor=pointer]:
+                - img [ref=e138] [cursor=pointer]
+                - generic [ref=e141] [cursor=pointer]: Accounts List
+            - listitem [ref=e142]:
+              - link "Candidate Search" [ref=e143] [cursor=pointer]:
+                - /url: /lightning/n/Candidate_Search
+                - generic [ref=e144] [cursor=pointer]: Candidate Search
+            - listitem [ref=e145]:
+              - link "Contacts" [ref=e146] [cursor=pointer]:
+                - /url: /lightning/o/Contact/home
+                - generic [ref=e147] [cursor=pointer]: Contacts
+              - button "Contacts List" [ref=e151] [cursor=pointer]:
+                - img [ref=e155] [cursor=pointer]
+                - generic [ref=e158] [cursor=pointer]: Contacts List
+            - listitem [ref=e159]:
+              - link "Placements" [ref=e160] [cursor=pointer]:
+                - /url: /lightning/o/TR1__Closing_Report__c/home
+                - generic [ref=e161] [cursor=pointer]: Placements
+              - button "Placements List" [ref=e165] [cursor=pointer]:
+                - img [ref=e169] [cursor=pointer]
+                - generic [ref=e172] [cursor=pointer]: Placements List
+            - listitem [ref=e173]:
+              - link "Jobs" [ref=e174] [cursor=pointer]:
+                - /url: /lightning/o/TR1__Job__c/home
+                - generic [ref=e175] [cursor=pointer]: Jobs
+              - button "Jobs List" [ref=e179] [cursor=pointer]:
+                - img [ref=e183] [cursor=pointer]
+                - generic [ref=e186] [cursor=pointer]: Jobs List
+            - listitem [ref=e187]:
+              - link "Call Lists" [ref=e188] [cursor=pointer]:
+                - /url: /lightning/o/TR1__Call_List__c/home
+                - generic [ref=e189] [cursor=pointer]: Call Lists
+              - button "Call Lists List" [ref=e193] [cursor=pointer]:
+                - img [ref=e197] [cursor=pointer]
+                - generic [ref=e200] [cursor=pointer]: Call Lists List
+            - listitem [ref=e201]:
+              - link "Job Board Applications" [ref=e202] [cursor=pointer]:
+                - /url: /lightning/o/TR1__Job_Board_Application__c/home
+                - generic [ref=e203] [cursor=pointer]: Job Board Applications
+              - button "Job Board Applications List" [ref=e207] [cursor=pointer]:
+                - img [ref=e211] [cursor=pointer]
+                - generic [ref=e214] [cursor=pointer]: Job Board Applications List
+            - listitem [ref=e215]:
+              - link "Job Leads" [ref=e216] [cursor=pointer]:
+                - /url: /lightning/o/TR1__Job_Leads__c/home
+                - generic [ref=e217] [cursor=pointer]: Job Leads
+              - button "Job Leads List" [ref=e221] [cursor=pointer]:
+                - img [ref=e225] [cursor=pointer]
+                - generic [ref=e228] [cursor=pointer]: Job Leads List
+            - listitem [ref=e229]:
+              - link "Long Lists" [ref=e230] [cursor=pointer]:
+                - /url: /lightning/o/TR1__Opportunity_Discussed__c/home
+                - generic [ref=e231] [cursor=pointer]: Long Lists
+              - button "Long Lists List" [ref=e235] [cursor=pointer]:
+                - img [ref=e239] [cursor=pointer]
+                - generic [ref=e242] [cursor=pointer]: Long Lists List
+            - listitem [ref=e243]:
+              - link "Projects" [ref=e244] [cursor=pointer]:
+                - /url: /lightning/o/CAP_CC_Project__c/home
+                - generic [ref=e245] [cursor=pointer]: Projects
+              - button "Projects List" [ref=e249] [cursor=pointer]:
+                - img [ref=e253] [cursor=pointer]
+                - generic [ref=e256] [cursor=pointer]: Projects List
+            - listitem [ref=e257]:
+              - link "Placement Splits" [ref=e258] [cursor=pointer]:
+                - /url: /lightning/o/CAP_CC_Placement_Split__c/home
+                - generic [ref=e259] [cursor=pointer]: Placement Splits
+              - button "Placement Splits List" [ref=e263] [cursor=pointer]:
+                - img [ref=e267] [cursor=pointer]
+                - generic [ref=e270] [cursor=pointer]: Placement Splits List
+            - listitem [ref=e271]:
+              - link "Reports" [ref=e272] [cursor=pointer]:
+                - /url: /lightning/o/Report/home
+                - generic [ref=e273] [cursor=pointer]: Reports
+              - button "Reports List" [ref=e277] [cursor=pointer]:
+                - img [ref=e281] [cursor=pointer]
+                - generic [ref=e284] [cursor=pointer]: Reports List
+            - listitem [ref=e285]:
+              - button "Show more navigation items" [ref=e287] [cursor=pointer]:
+                - generic [ref=e288] [cursor=pointer]: More
+                - img [ref=e292] [cursor=pointer]
+                - generic [ref=e295] [cursor=pointer]: Show more navigation items
+            - listitem [ref=e296]:
+              - button "Edit nav items" [ref=e298] [cursor=pointer]:
+                - img [ref=e300] [cursor=pointer]
+                - generic [ref=e303] [cursor=pointer]: Edit nav items
+      - main [ref=e305]:
+        - generic [ref=e314]:
+          - generic [ref=e317]:
+            - iframe [ref=e322]:
+              - generic [ref=f1e9]:
+                - generic [ref=f1e11]:
+                  - generic [ref=f1e12]:
+                    - generic [ref=f1e13]:
+                      - generic [ref=f1e15]:
+                        - img [ref=f1e18]
+                        - heading "Dashboard Activity Summary" [level=1] [ref=f1e23]:
+                          - generic [ref=f1e24]: Dashboard
+                      - group [ref=f1e32]:
+                        - button "Open" [ref=f1e33] [cursor=pointer]
+                        - button "Refresh" [ref=f1e34] [cursor=pointer]
+                        - button "More Dashboard Actions" [ref=f1e36] [cursor=pointer]:
+                          - img [ref=f1e37] [cursor=pointer]
+                          - generic [ref=f1e39] [cursor=pointer]: More Dashboard Actions
+                    - generic [ref=f1e43]:
+                      - generic [ref=f1e44]:
+                        - img [ref=f1e46]
+                        - strong [ref=f1e48]: Last refreshed 331 days ago. Refresh this dashboard to see the latest data.
+                      - generic [ref=f1e49]:
+                        - generic [ref=f1e50]: As of 22-Oct-2024 11:14∙
+                        - generic [ref=f1e51]:
+                          - img [ref=f1e55] [cursor=pointer]
+                          - text: ∙
+                        - generic [ref=f1e57]: Viewing as QA AUTO UK FE MAIN
+                  - generic [ref=f1e62]:
+                    - generic [ref=f1e69]:
+                      - generic [ref=f1e70]: Created Date
+                      - button "Created Date" [ref=f1e72] [cursor=pointer]:
+                        - generic [ref=f1e73] [cursor=pointer]: equals Current Week
+                        - img [ref=f1e74] [cursor=pointer]
+                      - listbox [ref=f1e76]:
+                        - group "Selected Options:"
+                    - generic [ref=f1e83]:
+                      - generic [ref=f1e84]: Created By
+                      - button "Created By" [ref=f1e86] [cursor=pointer]:
+                        - generic [ref=f1e87] [cursor=pointer]: All
+                        - img [ref=f1e88] [cursor=pointer]
+                      - listbox [ref=f1e90]:
+                        - group "Selected Options:"
+                - generic [ref=f1e93]:
+                  - article [ref=f1e96]:
+                    - heading "Candidate Meeting" [level=2] [ref=f1e97]
+                    - generic [ref=f1e99]:
+                      - button "Refresh \"Candidate Meeting\"" [ref=f1e100] [cursor=pointer]:
+                        - img [ref=f1e101] [cursor=pointer]
+                        - generic [ref=f1e103] [cursor=pointer]: Refresh "Candidate Meeting"
+                      - button "Expand \"Candidate Meeting\"" [ref=f1e104] [cursor=pointer]:
+                        - img [ref=f1e105] [cursor=pointer]
+                        - generic [ref=f1e107] [cursor=pointer]: Expand "Candidate Meeting"
+                    - generic [ref=f1e108]:
+                      - generic:
+                        - generic:
+                          - button "Enable table equivalent for screen reader users" [ref=f1e112] [cursor=pointer]
+                          - list [ref=f1e113]:
+                            - button "Record Count 0, 0% of 0" [ref=f1e114]
+                    - generic [ref=f1e117]:
+                      - link "View Report (Candidate Meetings - Individual) for \"Candidate Meeting\"" [ref=f1e120] [cursor=pointer]:
+                        - /url: https://pagegroup--sit.sandbox.lightning.force.com/one/one.app#/sObject/00OUF000000W6S52AK/view?reportFilters=%5B%7B%22value%22%3A%22THIS%20WEEK%22%2C%22operator%22%3A%22equals%22%2C%22column%22%3A%22CREATED_DATE%22%7D%5D
+                        - text: View Report (Candidate Meetings - Individual)
+                        - generic [ref=f1e121] [cursor=pointer]: for "Candidate Meeting"
+                      - generic [ref=f1e122]: As of 22-Oct-2024 11:14
+                  - article [ref=f1e125]:
+                    - heading "Candidates Met NOT Reg" [level=2] [ref=f1e126]
+                    - generic [ref=f1e128]:
+                      - button "Refresh \"Candidates Met NOT Reg\"" [ref=f1e129] [cursor=pointer]:
+                        - img [ref=f1e130] [cursor=pointer]
+                        - generic [ref=f1e132] [cursor=pointer]: Refresh "Candidates Met NOT Reg"
+                      - button "Expand \"Candidates Met NOT Reg\"" [ref=f1e133] [cursor=pointer]:
+                        - img [ref=f1e134] [cursor=pointer]
+                        - generic [ref=f1e136] [cursor=pointer]: Expand "Candidates Met NOT Reg"
+                    - generic [ref=f1e137]:
+                      - generic:
+                        - generic:
+                          - button "Enable table equivalent for screen reader users" [ref=f1e141] [cursor=pointer]
+                          - list [ref=f1e142]:
+                            - button "Record Count 0, 0% of 0" [ref=f1e143]
+                    - generic [ref=f1e146]:
+                      - link "View Report (Cand's Met Not Reg Last 90D- Ind) for \"Candidates Met NOT Reg\"" [ref=f1e149] [cursor=pointer]:
+                        - /url: https://pagegroup--sit.sandbox.lightning.force.com/one/one.app#/sObject/00O4J000004gqTOUAY/view?reportFilters=%5B%7B%22value%22%3A%22THIS%20WEEK%22%2C%22operator%22%3A%22equals%22%2C%22column%22%3A%22CREATED_DATE%22%7D%5D
+                        - text: View Report (Cand's Met Not Reg Last 90D- Ind)
+                        - generic [ref=f1e150] [cursor=pointer]: for "Candidates Met NOT Reg"
+                      - generic [ref=f1e151]: As of 22-Oct-2024 11:14
+                  - article [ref=f1e154]:
+                    - heading "Total Interviews Created" [level=2] [ref=f1e155]
+                    - generic [ref=f1e157]:
+                      - button "Refresh \"Total Interviews Created\"" [ref=f1e158] [cursor=pointer]:
+                        - img [ref=f1e159] [cursor=pointer]
+                        - generic [ref=f1e161] [cursor=pointer]: Refresh "Total Interviews Created"
+                      - button "Expand \"Total Interviews Created\"" [ref=f1e162] [cursor=pointer]:
+                        - img [ref=f1e163] [cursor=pointer]
+                        - generic [ref=f1e165] [cursor=pointer]: Expand "Total Interviews Created"
+                    - generic [ref=f1e166]:
+                      - generic:
+                        - generic:
+                          - button "Enable table equivalent for screen reader users" [ref=f1e170] [cursor=pointer]
+                          - list [ref=f1e171]:
+                            - button "Record Count 2, 100% of 2" [ref=f1e172]
+                    - generic [ref=f1e175]:
+                      - link "View Report (1st Client Interviews Created-Individual) for \"Total Interviews Created\"" [ref=f1e178] [cursor=pointer]:
+                        - /url: https://pagegroup--sit.sandbox.lightning.force.com/one/one.app#/sObject/00O4J000004kbIWUAY/view?reportFilters=%5B%7B%22value%22%3A%22THIS%20WEEK%22%2C%22operator%22%3A%22equals%22%2C%22column%22%3A%22TR1__Job__c.CreatedDate%22%7D%5D
+                        - text: View Report (1st Client Interviews Created-Individual)
+                        - generic [ref=f1e179] [cursor=pointer]: for "Total Interviews Created"
+                      - generic [ref=f1e180]: As of 22-Oct-2024 11:14
+                  - article [ref=f1e183]:
+                    - heading "CV Sent on ATS" [level=2] [ref=f1e184]
+                    - generic [ref=f1e186]:
+                      - button "Refresh \"CV Sent on ATS\"" [ref=f1e187] [cursor=pointer]:
+                        - img [ref=f1e188] [cursor=pointer]
+                        - generic [ref=f1e190] [cursor=pointer]: Refresh "CV Sent on ATS"
+                      - button "Expand \"CV Sent on ATS\"" [ref=f1e191] [cursor=pointer]:
+                        - img [ref=f1e192] [cursor=pointer]
+                        - generic [ref=f1e194] [cursor=pointer]: Expand "CV Sent on ATS"
+                    - generic [ref=f1e195]:
+                      - generic:
+                        - generic:
+                          - button "Enable table equivalent for screen reader users" [ref=f1e199] [cursor=pointer]
+                          - list [ref=f1e200]:
+                            - button "Record Count 4, 100% of 4" [ref=f1e201]
+                    - generic [ref=f1e204]:
+                      - link "View Report (CVs Sent on ATS - Individual) for \"CV Sent on ATS\"" [ref=f1e207] [cursor=pointer]:
+                        - /url: https://pagegroup--sit.sandbox.lightning.force.com/one/one.app#/sObject/00O4J000004kbGkUAI/view?reportFilters=%5B%7B%22value%22%3A%22THIS%20WEEK%22%2C%22operator%22%3A%22equals%22%2C%22column%22%3A%22TR1__Job__c.CreatedDate%22%7D%5D
+                        - text: View Report (CVs Sent on ATS - Individual)
+                        - generic [ref=f1e208] [cursor=pointer]: for "CV Sent on ATS"
+                      - generic [ref=f1e209]: As of 22-Oct-2024 11:14
+                  - article [ref=f1e212]:
+                    - heading "Client Contact Calls" [level=2] [ref=f1e213]
+                    - generic [ref=f1e215]:
+                      - button "Refresh \"Client Contact Calls\"" [ref=f1e216] [cursor=pointer]:
+                        - img [ref=f1e217] [cursor=pointer]
+                        - generic [ref=f1e219] [cursor=pointer]: Refresh "Client Contact Calls"
+                      - button "Expand \"Client Contact Calls\"" [ref=f1e220] [cursor=pointer]:
+                        - img [ref=f1e221] [cursor=pointer]
+                        - generic [ref=f1e223] [cursor=pointer]: Expand "Client Contact Calls"
+                    - generic [ref=f1e224]:
+                      - generic:
+                        - generic:
+                          - button "Enable table equivalent for screen reader users" [ref=f1e228] [cursor=pointer]
+                          - list [ref=f1e229]:
+                            - button "Record Count 7, 100% of 7" [ref=f1e230]
+                    - generic [ref=f1e233]:
+                      - link "View Report (Client Contact Calls BD - Individual) for \"Client Contact Calls\"" [ref=f1e236] [cursor=pointer]:
+                        - /url: https://pagegroup--sit.sandbox.lightning.force.com/one/one.app#/sObject/00O4J000005NMLPUA4/view?reportFilters=%5B%7B%22value%22%3A%22THIS%20WEEK%22%2C%22operator%22%3A%22equals%22%2C%22column%22%3A%22CREATED_DATE%22%7D%5D
+                        - text: View Report (Client Contact Calls BD - Individual)
+                        - generic [ref=f1e237] [cursor=pointer]: for "Client Contact Calls"
+                      - generic [ref=f1e238]: As of 22-Oct-2024 11:14
+                  - article [ref=f1e241]:
+                    - heading "Client Meetings Created" [level=2] [ref=f1e242]
+                    - generic [ref=f1e244]:
+                      - button "Refresh \"Client Meetings Created\"" [ref=f1e245] [cursor=pointer]:
+                        - img [ref=f1e246] [cursor=pointer]
+                        - generic [ref=f1e248] [cursor=pointer]: Refresh "Client Meetings Created"
+                      - button "Expand \"Client Meetings Created\"" [ref=f1e249] [cursor=pointer]:
+                        - img [ref=f1e250] [cursor=pointer]
+                        - generic [ref=f1e252] [cursor=pointer]: Expand "Client Meetings Created"
+                    - generic [ref=f1e253]:
+                      - generic:
+                        - generic:
+                          - button "Enable table equivalent for screen reader users" [ref=f1e257] [cursor=pointer]
+                          - list [ref=f1e258]:
+                            - button "Record Count 6, 100% of 6" [ref=f1e259]
+                    - generic [ref=f1e262]:
+                      - link "View Report (Client Meetings Created - Individual) for \"Client Meetings Created\"" [ref=f1e265] [cursor=pointer]:
+                        - /url: https://pagegroup--sit.sandbox.lightning.force.com/one/one.app#/sObject/00O4J000005NMAqUAO/view?reportFilters=%5B%7B%22value%22%3A%22THIS%20WEEK%22%2C%22operator%22%3A%22equals%22%2C%22column%22%3A%22CREATED_DATE%22%7D%5D
+                        - text: View Report (Client Meetings Created - Individual)
+                        - generic [ref=f1e266] [cursor=pointer]: for "Client Meetings Created"
+                      - generic [ref=f1e267]: As of 22-Oct-2024 11:14
+                  - article [ref=f1e270]:
+                    - heading "Jobs with NO LMA" [level=2] [ref=f1e271]
+                    - generic [ref=f1e273]:
+                      - button "Refresh \"Jobs with NO LMA\"" [ref=f1e274] [cursor=pointer]:
+                        - img [ref=f1e275] [cursor=pointer]
+                        - generic [ref=f1e277] [cursor=pointer]: Refresh "Jobs with NO LMA"
+                      - button "Expand \"Jobs with NO LMA\"" [ref=f1e278] [cursor=pointer]:
+                        - img [ref=f1e279] [cursor=pointer]
+                        - generic [ref=f1e281] [cursor=pointer]: Expand "Jobs with NO LMA"
+                    - generic [ref=f1e282]:
+                      - generic:
+                        - generic:
+                          - button "Enable table equivalent for screen reader users" [ref=f1e286] [cursor=pointer]
+                          - list [ref=f1e287]:
+                            - button "Record Count 93, 100% of 93" [ref=f1e288]
+                    - generic [ref=f1e291]:
+                      - link "View Report (Jobs with No LMA 30 Days - My Teams) for \"Jobs with NO LMA\"" [ref=f1e294] [cursor=pointer]:
+                        - /url: https://pagegroup--sit.sandbox.lightning.force.com/one/one.app#/sObject/00O4J000004XAkXUAW/view?reportFilters=%5B%7B%22value%22%3A%22THIS%20WEEK%22%2C%22operator%22%3A%22equals%22%2C%22column%22%3A%22CUST_CREATED_DATE%22%7D%5D
+                        - text: View Report (Jobs with No LMA 30 Days - My Teams)
+                        - generic [ref=f1e295] [cursor=pointer]: for "Jobs with NO LMA"
+                      - generic [ref=f1e296]: As of 22-Oct-2024 11:14
+                  - article [ref=f1e299]:
+                    - heading "Job Leads Created" [level=2] [ref=f1e300]
+                    - generic [ref=f1e302]:
+                      - button "Refresh \"Job Leads Created\"" [ref=f1e303] [cursor=pointer]:
+                        - img [ref=f1e304] [cursor=pointer]
+                        - generic [ref=f1e306] [cursor=pointer]: Refresh "Job Leads Created"
+                      - button "Expand \"Job Leads Created\"" [ref=f1e307] [cursor=pointer]:
+                        - img [ref=f1e308] [cursor=pointer]
+                        - generic [ref=f1e310] [cursor=pointer]: Expand "Job Leads Created"
+                    - generic [ref=f1e311]:
+                      - generic:
+                        - generic:
+                          - button "Enable table equivalent for screen reader users" [ref=f1e315] [cursor=pointer]
+                          - list [ref=f1e316]:
+                            - button "Record Count 28, 100% of 28" [ref=f1e317]
+                    - generic [ref=f1e320]:
+                      - link "View Report (Job Leads by Lead Type - Individual) for \"Job Leads Created\"" [ref=f1e323] [cursor=pointer]:
+                        - /url: https://pagegroup--sit.sandbox.lightning.force.com/one/one.app#/sObject/00O4J000004kbGWUAY/view?reportFilters=%5B%7B%22value%22%3A%22THIS%20WEEK%22%2C%22operator%22%3A%22equals%22%2C%22column%22%3A%22CUST_CREATED_DATE%22%7D%5D
+                        - text: View Report (Job Leads by Lead Type - Individual)
+                        - generic [ref=f1e324] [cursor=pointer]: for "Job Leads Created"
+                      - generic [ref=f1e325]: As of 22-Oct-2024 11:14
+            - article [ref=e324]:
+              - generic [ref=e326]:
+                - img [ref=e331]
+                - heading "Followed By Me" [level=2] [ref=e335]:
+                  - generic [ref=e336]: Followed By Me
+              - generic [ref=e337]:
+                - generic [ref=e338]:
+                  - generic [ref=e340]:
+                    - generic [ref=e342]: Type
+                    - combobox "Type" [ref=e345]:
+                      - option "All" [selected]
+                      - option "Account"
+                      - option "Call List"
+                      - option "Contact"
+                      - option "Job"
+                      - option "Job Lead"
+                      - option "Placement"
+                  - generic [ref=e349]:
+                    - generic [ref=e350]: Search
+                    - generic [ref=e351]:
+                      - searchbox "Search" [ref=e352]
+                      - generic:
+                        - img
+                - generic [ref=e353]:
+                  - 'heading "Note: Data can be filtered on the Basis Of: Followed Name." [level=1] [ref=e355]':
+                    - strong [ref=e356]: "Note:"
+                    - text: "Data can be filtered on the Basis Of:"
+                    - strong [ref=e357]: Followed Name.
+                  - generic [ref=e359]:
+                    - generic [ref=e360]: Navigation Mode
+                    - grid [ref=e364]:
+                      - rowgroup:
+                        - row "Row Number Followed Type Followed Name Followed Date":
+                          - columnheader "Row Number"
+                          - columnheader "Followed Type":
+                            - generic [ref=e370]:
+                              - button "Show Followed Type column actions" [ref=e373] [cursor=pointer]:
+                                - img [ref=e375] [cursor=pointer]
+                                - generic [ref=e378] [cursor=pointer]: Show Followed Type column actions
+                              - slider "Followed Type column width" [ref=e379]: "287"
+                          - columnheader "Followed Name":
+                            - generic [ref=e384]:
+                              - button "Show Followed Name column actions" [ref=e387] [cursor=pointer]:
+                                - img [ref=e389] [cursor=pointer]
+                                - generic [ref=e392] [cursor=pointer]: Show Followed Name column actions
+                              - slider "Followed Name column width" [ref=e393]: "287"
+                          - columnheader "Followed Date":
+                            - generic [ref=e398]:
+                              - button "Show Followed Date column actions" [ref=e401] [cursor=pointer]:
+                                - img [ref=e403] [cursor=pointer]
+                                - generic [ref=e406] [cursor=pointer]: Show Followed Date column actions
+                              - slider "Followed Date column width" [ref=e407]: "287"
+                      - rowgroup [ref=e410]:
+                        - row "Contact 39103 candi 2025-04-30T08:25:45.000Z" [ref=e411]:
+                          - gridcell [ref=e412]
+                          - rowheader "Contact" [ref=e417]:
+                            - generic [ref=e421]: Contact
+                          - gridcell "39103 candi" [ref=e422]:
+                            - link "39103 candi" [ref=e427] [cursor=pointer]:
+                              - /url: https://pagegroup--sit.sandbox.my.salesforce.com/003UF00000S7LSeYAN
+                          - gridcell "2025-04-30T08:25:45.000Z" [ref=e428]:
+                            - generic [ref=e432]: 2025-04-30T08:25:45.000Z
+                        - row "Contact LAST Test23345 2025-04-30T11:28:18.000Z" [ref=e433]:
+                          - gridcell [ref=e434]
+                          - rowheader "Contact" [ref=e439]:
+                            - generic [ref=e443]: Contact
+                          - gridcell "LAST Test23345" [ref=e444]:
+                            - link "LAST Test23345" [ref=e449] [cursor=pointer]:
+                              - /url: https://pagegroup--sit.sandbox.my.salesforce.com/003UF00000S7ngbYAB
+                          - gridcell "2025-04-30T11:28:18.000Z" [ref=e450]:
+                            - generic [ref=e454]: 2025-04-30T11:28:18.000Z
+                        - row "Job Lead JL-09092025-1665683 2025-09-09T07:35:27.000Z" [ref=e455]:
+                          - gridcell [ref=e456]
+                          - rowheader "Job Lead" [ref=e461]:
+                            - generic [ref=e465]: Job Lead
+                          - gridcell "JL-09092025-1665683" [ref=e466]:
+                            - link "JL-09092025-1665683" [ref=e471] [cursor=pointer]:
+                              - /url: https://pagegroup--sit.sandbox.my.salesforce.com/a1AUF000001gsD72AI
+                          - gridcell "2025-09-09T07:35:27.000Z" [ref=e472]:
+                            - generic [ref=e476]: 2025-09-09T07:35:27.000Z
+                        - row "Job Lead JL-09092025-1665686 2025-09-09T07:41:09.000Z" [ref=e477]:
+                          - gridcell [ref=e478]
+                          - rowheader "Job Lead" [ref=e483]:
+                            - generic [ref=e487]: Job Lead
+                          - gridcell "JL-09092025-1665686" [ref=e488]:
+                            - link "JL-09092025-1665686" [ref=e493] [cursor=pointer]:
+                              - /url: https://pagegroup--sit.sandbox.my.salesforce.com/a1AUF000001gsLB2AY
+                          - gridcell "2025-09-09T07:41:09.000Z" [ref=e494]:
+                            - generic [ref=e498]: 2025-09-09T07:41:09.000Z
+                  - strong [ref=e499]:
+                    - heading "No more data to load." [level=1] [ref=e500]
+            - article [ref=e503]:
+              - heading "Items to Approve" [level=2] [ref=e507]
+              - paragraph [ref=e511]: No approval requests need your attention right now.
+          - generic [ref=e514]:
+            - article [ref=e516]:
+              - generic [ref=e518]:
+                - generic [ref=e519]:
+                  - generic [ref=e525]:
+                    - heading "Jobs" [level=1] [ref=e529]
+                    - heading "Open Jobs - INDIVIDUAL" [level=2] [ref=e530]:
+                      - link "Open Jobs - INDIVIDUAL" [ref=e531] [cursor=pointer]:
+                        - /url: javascript:void(0);
+                  - generic [ref=e533]:
+                    - paragraph [ref=e535]:
+                      - generic [ref=e537]:
+                        - status "Open Jobs - INDIVIDUAL" [ref=e538]: 5+ items • Sorted by Job Stage • Filtered by All jobs - Status •
+                        - generic [ref=e539]: Updated a few seconds ago
+                    - generic [ref=e540]:
+                      - button "List View Controls" [ref=e544] [cursor=pointer]:
+                        - img [ref=e546] [cursor=pointer]
+                        - img [ref=e550] [cursor=pointer]
+                        - generic [ref=e553] [cursor=pointer]: List View Controls
+                      - generic [ref=e555]:
+                        - button "Refresh" [ref=e558] [cursor=pointer]:
+                          - img [ref=e560] [cursor=pointer]
+                          - generic [ref=e563] [cursor=pointer]: Refresh
+                        - button "Edit List" [ref=e568] [cursor=pointer]:
+                          - img [ref=e570] [cursor=pointer]
+                          - generic [ref=e573] [cursor=pointer]: Edit List
+                - generic [ref=e578]:
+                  - grid [ref=e582]:
+                    - rowgroup:
+                      - row "Item Number Job Name Job Stage Contact Days Open Date of Last CV Sent Yearly Salary Low Pay Rate Estimated Fee Last Meaningful Activity Date Date of the Last Client Interview Advert Published Action":
+                        - columnheader "Item Number":
+                          - generic [ref=e585]: Item Number
+                        - columnheader "Job Name":
+                          - generic [ref=e586]:
+                            - button "Sort Job Name" [ref=e587] [cursor=pointer]:
+                              - generic [ref=e588] [cursor=pointer]: Sort
+                            - button "Show Job Name Column Actions" [ref=e592] [cursor=pointer]:
+                              - img [ref=e594] [cursor=pointer]
+                              - generic [ref=e597] [cursor=pointer]: Show Job Name Column Actions
+                            - slider "Job Name Column Width" [ref=e598]: "334"
+                        - columnheader "Job Stage":
+                          - generic [ref=e601]:
+                            - button "Sort Job Stage" [ref=e602] [cursor=pointer]:
+                              - generic [ref=e603] [cursor=pointer]: Sort
+                            - generic [ref=e605]: Sorted Descending
+                            - button "Show Job Stage Column Actions" [ref=e607] [cursor=pointer]:
+                              - img [ref=e609] [cursor=pointer]
+                              - generic [ref=e612] [cursor=pointer]: Show Job Stage Column Actions
+                            - slider "Job Stage Column Width" [ref=e613]: "96"
+                        - columnheader "Contact":
+                          - generic [ref=e616]:
+                            - button "Sort Contact" [ref=e617] [cursor=pointer]:
+                              - generic [ref=e618] [cursor=pointer]: Sort
+                            - button "Show Contact Column Actions" [ref=e622] [cursor=pointer]:
+                              - img [ref=e624] [cursor=pointer]
+                              - generic [ref=e627] [cursor=pointer]: Show Contact Column Actions
+                            - slider "Contact Column Width" [ref=e628]: "86"
+                        - columnheader "Days Open":
+                          - generic [ref=e631]:
+                            - button "Sort Days Open" [ref=e632] [cursor=pointer]:
+                              - generic [ref=e633] [cursor=pointer]: Sort
+                            - button "Show Days Open Column Actions" [ref=e637] [cursor=pointer]:
+                              - img [ref=e639] [cursor=pointer]
+                              - generic [ref=e642] [cursor=pointer]: Show Days Open Column Actions
+                            - slider "Days Open Column Width" [ref=e643]: "103"
+                        - columnheader "Date of Last CV Sent":
+                          - generic [ref=e646]:
+                            - button "Sort Date of Last CV Sent" [ref=e647] [cursor=pointer]:
+                              - generic [ref=e648] [cursor=pointer]: Sort
+                            - button "Show Date of Last CV Sent Column Actions" [ref=e652] [cursor=pointer]:
+                              - img [ref=e654] [cursor=pointer]
+                              - generic [ref=e657] [cursor=pointer]: Show Date of Last CV Sent Column Actions
+                            - slider "Date of Last CV Sent Column Width" [ref=e658]: "171"
+                        - columnheader "Yearly Salary Low":
+                          - generic [ref=e661]:
+                            - button "Sort Yearly Salary Low" [ref=e662] [cursor=pointer]:
+                              - generic [ref=e663] [cursor=pointer]: Sort
+                            - button "Show Yearly Salary Low Column Actions" [ref=e667] [cursor=pointer]:
+                              - img [ref=e669] [cursor=pointer]
+                              - generic [ref=e672] [cursor=pointer]: Show Yearly Salary Low Column Actions
+                            - slider "Yearly Salary Low Column Width" [ref=e673]: "122"
+                        - columnheader "Pay Rate":
+                          - generic [ref=e676]:
+                            - button "Sort Pay Rate" [ref=e677] [cursor=pointer]:
+                              - generic [ref=e678] [cursor=pointer]: Sort
+                            - button "Show Pay Rate Column Actions" [ref=e682] [cursor=pointer]:
+                              - img [ref=e684] [cursor=pointer]
+                              - generic [ref=e687] [cursor=pointer]: Show Pay Rate Column Actions
+                            - slider "Pay Rate Column Width" [ref=e688]: "92"
+                        - columnheader "Estimated Fee":
+                          - generic [ref=e691]:
+                            - button "Sort Estimated Fee" [ref=e692] [cursor=pointer]:
+                              - generic [ref=e693] [cursor=pointer]: Sort
+                            - button "Show Estimated Fee Column Actions" [ref=e697] [cursor=pointer]:
+                              - img [ref=e699] [cursor=pointer]
+                              - generic [ref=e702] [cursor=pointer]: Show Estimated Fee Column Actions
+                            - slider "Estimated Fee Column Width" [ref=e703]: "122"
+                        - columnheader "Last Meaningful Activity Date":
+                          - generic [ref=e706]:
+                            - button "Sort Last Meaningful Activity Date" [ref=e707] [cursor=pointer]:
+                              - generic [ref=e708] [cursor=pointer]: Sort
+                            - button "Show Last Meaningful Activity Date Column Actions" [ref=e712] [cursor=pointer]:
+                              - img [ref=e714] [cursor=pointer]
+                              - generic [ref=e717] [cursor=pointer]: Show Last Meaningful Activity Date Column Actions
+                            - slider "Last Meaningful Activity Date Column Width" [ref=e718]: "227"
+                        - columnheader "Date of the Last Client Interview":
+                          - generic [ref=e721]:
+                            - button "Sort Date of the Last Client Interview" [ref=e722] [cursor=pointer]:
+                              - generic [ref=e723] [cursor=pointer]: Sort
+                            - button "Show Date of the Last Client Interview Column Actions" [ref=e727] [cursor=pointer]:
+                              - img [ref=e729] [cursor=pointer]
+                              - generic [ref=e732] [cursor=pointer]: Show Date of the Last Client Interview Column Actions
+                            - slider "Date of the Last Client Interview Column Width" [ref=e733]: "251"
+                        - columnheader "Advert Published":
+                          - generic [ref=e736]:
+                            - button "Sort Advert Published" [ref=e737] [cursor=pointer]:
+                              - generic [ref=e738] [cursor=pointer]: Sort
+                            - button "Show Advert Published Column Actions" [ref=e742] [cursor=pointer]:
+                              - img [ref=e744] [cursor=pointer]
+                              - generic [ref=e747] [cursor=pointer]: Show Advert Published Column Actions
+                            - slider "Advert Published Column Width" [ref=e748]: "135"
+                        - columnheader "Action":
+                          - generic [ref=e753]: Action
+                    - rowgroup
+                    - rowgroup [ref=e754]:
+                      - row "AutoAPI Account hllubd - AutoAPI Job srhgbd Submittal AutoAPI Client yhixkk 0 19/09/2025 04:05 GBP 10,000.00 GBP 1,000.00 19/09/2025 false Show Actions" [ref=e755]:
+                        - gridcell [ref=e756]
+                        - rowheader "AutoAPI Account hllubd - AutoAPI Job srhgbd" [ref=e761]:
+                          - link "AutoAPI Account hllubd - AutoAPI Job srhgbd" [ref=e763] [cursor=pointer]:
+                            - /url: /lightning/r/a1CUF000005rN6s2AE/view
+                        - gridcell "Submittal" [ref=e764]:
+                          - img "Submittal" [ref=e767]
+                        - gridcell "AutoAPI Client yhixkk" [ref=e768]:
+                          - link "AutoAPI Client yhixkk" [ref=e770] [cursor=pointer]:
+                            - /url: /lightning/r/003UF00000bLAn3YAG/view
+                        - gridcell "0" [ref=e771]:
+                          - generic [ref=e773]: "0"
+                        - gridcell "19/09/2025 04:05" [ref=e774]:
+                          - generic [ref=e776]: 19/09/2025 04:05
+                        - gridcell "GBP 10,000.00" [ref=e777]:
+                          - generic [ref=e779]: GBP 10,000.00
+                        - gridcell [ref=e780]
+                        - gridcell "GBP 1,000.00" [ref=e781]:
+                          - generic [ref=e783]: GBP 1,000.00
+                        - gridcell "19/09/2025" [ref=e784]:
+                          - generic [ref=e786]: 19/09/2025
+                        - gridcell [ref=e787]
+                        - gridcell "false" [ref=e788]:
+                          - checkbox "false" [disabled] [ref=e791]
+                        - gridcell "Show Actions" [ref=e792]:
+                          - button "Show Actions" [ref=e795] [cursor=pointer]:
+                            - generic [ref=e796] [cursor=pointer]:
+                              - generic [ref=e797] [cursor=pointer]:
+                                - img
+                              - generic [ref=e798] [cursor=pointer]: Show Actions
+                      - row "AutoAPI Account qlgqsv - AutoAPI Job jsekeh Submittal AutoAPI Client otqohf 1 18/09/2025 04:04 GBP 10,000.00 GBP 1,000.00 18/09/2025 false Show Actions" [ref=e799]:
+                        - gridcell [ref=e800]
+                        - rowheader "AutoAPI Account qlgqsv - AutoAPI Job jsekeh" [ref=e805]:
+                          - link "AutoAPI Account qlgqsv - AutoAPI Job jsekeh" [ref=e807] [cursor=pointer]:
+                            - /url: /lightning/r/a1CUF000005qTW52AM/view
+                        - gridcell "Submittal" [ref=e808]:
+                          - img "Submittal" [ref=e811]
+                        - gridcell "AutoAPI Client otqohf" [ref=e812]:
+                          - link "AutoAPI Client otqohf" [ref=e814] [cursor=pointer]:
+                            - /url: /lightning/r/003UF00000bGbfUYAS/view
+                        - gridcell "1" [ref=e815]:
+                          - generic [ref=e817]: "1"
+                        - gridcell "18/09/2025 04:04" [ref=e818]:
+                          - generic [ref=e820]: 18/09/2025 04:04
+                        - gridcell "GBP 10,000.00" [ref=e821]:
+                          - generic [ref=e823]: GBP 10,000.00
+                        - gridcell [ref=e824]
+                        - gridcell "GBP 1,000.00" [ref=e825]:
+                          - generic [ref=e827]: GBP 1,000.00
+                        - gridcell "18/09/2025" [ref=e828]:
+                          - generic [ref=e830]: 18/09/2025
+                        - gridcell [ref=e831]
+                        - gridcell "false" [ref=e832]:
+                          - checkbox "false" [disabled] [ref=e835]
+                        - gridcell "Show Actions" [ref=e836]:
+                          - button "Show Actions" [ref=e839] [cursor=pointer]:
+                            - generic [ref=e840] [cursor=pointer]:
+                              - generic [ref=e841] [cursor=pointer]:
+                                - img
+                              - generic [ref=e842] [cursor=pointer]: Show Actions
+                      - row "AutoAPI Account vcvkyg - AutoAPI Job adevjf Submittal AutoAPI Client wmdwhu 2 17/09/2025 04:03 GBP 10,000.00 GBP 1,000.00 17/09/2025 false Show Actions" [ref=e843]:
+                        - gridcell [ref=e844]
+                        - rowheader "AutoAPI Account vcvkyg - AutoAPI Job adevjf" [ref=e849]:
+                          - link "AutoAPI Account vcvkyg - AutoAPI Job adevjf" [ref=e851] [cursor=pointer]:
+                            - /url: /lightning/r/a1CUF000005pU4P2AU/view
+                        - gridcell "Submittal" [ref=e852]:
+                          - img "Submittal" [ref=e855]
+                        - gridcell "AutoAPI Client wmdwhu" [ref=e856]:
+                          - link "AutoAPI Client wmdwhu" [ref=e858] [cursor=pointer]:
+                            - /url: /lightning/r/003UF00000bAEqvYAG/view
+                        - gridcell "2" [ref=e859]:
+                          - generic [ref=e861]: "2"
+                        - gridcell "17/09/2025 04:03" [ref=e862]:
+                          - generic [ref=e864]: 17/09/2025 04:03
+                        - gridcell "GBP 10,000.00" [ref=e865]:
+                          - generic [ref=e867]: GBP 10,000.00
+                        - gridcell [ref=e868]
+                        - gridcell "GBP 1,000.00" [ref=e869]:
+                          - generic [ref=e871]: GBP 1,000.00
+                        - gridcell "17/09/2025" [ref=e872]:
+                          - generic [ref=e874]: 17/09/2025
+                        - gridcell [ref=e875]
+                        - gridcell "false" [ref=e876]:
+                          - checkbox "false" [disabled] [ref=e879]
+                        - gridcell "Show Actions" [ref=e880]:
+                          - button "Show Actions" [ref=e883] [cursor=pointer]:
+                            - generic [ref=e884] [cursor=pointer]:
+                              - generic [ref=e885] [cursor=pointer]:
+                                - img
+                              - generic [ref=e886] [cursor=pointer]: Show Actions
+                      - row "AutoAPI Account srysjc - AutoAPI Job aukypr Submittal AutoAPI Client djgzon 3 16/09/2025 04:04 GBP 10,000.00 GBP 1,000.00 16/09/2025 false Show Actions" [ref=e887]:
+                        - gridcell [ref=e888]
+                        - rowheader "AutoAPI Account srysjc - AutoAPI Job aukypr" [ref=e893]:
+                          - link "AutoAPI Account srysjc - AutoAPI Job aukypr" [ref=e895] [cursor=pointer]:
+                            - /url: /lightning/r/a1CUF000005oduX2AQ/view
+                        - gridcell "Submittal" [ref=e896]:
+                          - img "Submittal" [ref=e899]
+                        - gridcell "AutoAPI Client djgzon" [ref=e900]:
+                          - link "AutoAPI Client djgzon" [ref=e902] [cursor=pointer]:
+                            - /url: /lightning/r/003UF00000b5YDUYA2/view
+                        - gridcell "3" [ref=e903]:
+                          - generic [ref=e905]: "3"
+                        - gridcell "16/09/2025 04:04" [ref=e906]:
+                          - generic [ref=e908]: 16/09/2025 04:04
+                        - gridcell "GBP 10,000.00" [ref=e909]:
+                          - generic [ref=e911]: GBP 10,000.00
+                        - gridcell [ref=e912]
+                        - gridcell "GBP 1,000.00" [ref=e913]:
+                          - generic [ref=e915]: GBP 1,000.00
+                        - gridcell "16/09/2025" [ref=e916]:
+                          - generic [ref=e918]: 16/09/2025
+                        - gridcell [ref=e919]
+                        - gridcell "false" [ref=e920]:
+                          - checkbox "false" [disabled] [ref=e923]
+                        - gridcell "Show Actions" [ref=e924]:
+                          - button "Show Actions" [ref=e927] [cursor=pointer]:
+                            - generic [ref=e928] [cursor=pointer]:
+                              - generic [ref=e929] [cursor=pointer]:
+                                - img
+                              - generic [ref=e930] [cursor=pointer]: Show Actions
+                      - row "AutoAPI Account efwzcz - AutoAPI Job spwbeq Submittal AutoAPI Client vvtljw 4 15/09/2025 04:04 GBP 10,000.00 GBP 1,000.00 15/09/2025 false Show Actions" [ref=e931]:
+                        - gridcell [ref=e932]
+                        - rowheader "AutoAPI Account efwzcz - AutoAPI Job spwbeq" [ref=e937]:
+                          - link "AutoAPI Account efwzcz - AutoAPI Job spwbeq" [ref=e939] [cursor=pointer]:
+                            - /url: /lightning/r/a1CUF000005nrTJ2AY/view
+                        - gridcell "Submittal" [ref=e940]:
+                          - img "Submittal" [ref=e943]
+                        - gridcell "AutoAPI Client vvtljw" [ref=e944]:
+                          - link "AutoAPI Client vvtljw" [ref=e946] [cursor=pointer]:
+                            - /url: /lightning/r/003UF00000b1V9JYAU/view
+                        - gridcell "4" [ref=e947]:
+                          - generic [ref=e949]: "4"
+                        - gridcell "15/09/2025 04:04" [ref=e950]:
+                          - generic [ref=e952]: 15/09/2025 04:04
+                        - gridcell "GBP 10,000.00" [ref=e953]:
+                          - generic [ref=e955]: GBP 10,000.00
+                        - gridcell [ref=e956]
+                        - gridcell "GBP 1,000.00" [ref=e957]:
+                          - generic [ref=e959]: GBP 1,000.00
+                        - gridcell "15/09/2025" [ref=e960]:
+                          - generic [ref=e962]: 15/09/2025
+                        - gridcell [ref=e963]
+                        - gridcell "false" [ref=e964]:
+                          - checkbox "false" [disabled] [ref=e967]
+                        - gridcell "Show Actions" [ref=e968]:
+                          - button "Show Actions" [ref=e971] [cursor=pointer]:
+                            - generic [ref=e972] [cursor=pointer]:
+                              - generic [ref=e973] [cursor=pointer]:
+                                - img
+                              - generic [ref=e974] [cursor=pointer]: Show Actions
+                  - generic:
+                    - status
+            - article [ref=e976]:
+              - generic [ref=e978]:
+                - generic [ref=e979]:
+                  - generic [ref=e985]:
+                    - heading "Job Leads" [level=1] [ref=e989]
+                    - heading "Open Job Leads - INDIVIDUAL" [level=2] [ref=e990]:
+                      - link "Open Job Leads - INDIVIDUAL" [ref=e991] [cursor=pointer]:
+                        - /url: javascript:void(0);
+                  - generic [ref=e993]:
+                    - paragraph [ref=e995]:
+                      - generic [ref=e997]:
+                        - status "Open Job Leads - INDIVIDUAL" [ref=e998]: 5+ items • Sorted by Referred By Consultant • Filtered by My job leads - Status, Created Date •
+                        - generic [ref=e999]: Updated a few seconds ago
+                    - generic [ref=e1000]:
+                      - button "List View Controls" [ref=e1004] [cursor=pointer]:
+                        - img [ref=e1006] [cursor=pointer]
+                        - img [ref=e1010] [cursor=pointer]
+                        - generic [ref=e1013] [cursor=pointer]: List View Controls
+                      - generic [ref=e1015]:
+                        - button "Refresh" [ref=e1018] [cursor=pointer]:
+                          - img [ref=e1020] [cursor=pointer]
+                          - generic [ref=e1023] [cursor=pointer]: Refresh
+                        - button "Edit List" [ref=e1028] [cursor=pointer]:
+                          - img [ref=e1030] [cursor=pointer]
+                          - generic [ref=e1033] [cursor=pointer]: Edit List
+                - generic [ref=e1038]:
+                  - grid [ref=e1042]:
+                    - rowgroup:
+                      - row "Item Number Job Lead Reference Job Title Account Lead Type Client Contact Created Date Last Meaningful Activity Date Referred By Consultant Action":
+                        - columnheader "Item Number":
+                          - generic [ref=e1045]: Item Number
+                        - columnheader "Job Lead Reference":
+                          - generic [ref=e1046]:
+                            - button "Sort Job Lead Reference" [ref=e1047] [cursor=pointer]:
+                              - generic [ref=e1048] [cursor=pointer]: Sort
+                            - button "Show Job Lead Reference Column Actions" [ref=e1052] [cursor=pointer]:
+                              - img [ref=e1054] [cursor=pointer]
+                              - generic [ref=e1057] [cursor=pointer]: Show Job Lead Reference Column Actions
+                            - slider "Job Lead Reference Column Width" [ref=e1058]: "153"
+                        - columnheader "Job Title":
+                          - generic [ref=e1061]:
+                            - button "Sort Job Title" [ref=e1062] [cursor=pointer]:
+                              - generic [ref=e1063] [cursor=pointer]: Sort
+                            - button "Show Job Title Column Actions" [ref=e1067] [cursor=pointer]:
+                              - img [ref=e1069] [cursor=pointer]
+                              - generic [ref=e1072] [cursor=pointer]: Show Job Title Column Actions
+                            - slider "Job Title Column Width" [ref=e1073]: "88"
+                        - columnheader "Account":
+                          - generic [ref=e1076]:
+                            - button "Sort Account" [ref=e1077] [cursor=pointer]:
+                              - generic [ref=e1078] [cursor=pointer]: Sort
+                            - button "Show Account Column Actions" [ref=e1082] [cursor=pointer]:
+                              - img [ref=e1084] [cursor=pointer]
+                              - generic [ref=e1087] [cursor=pointer]: Show Account Column Actions
+                            - slider "Account Column Width" [ref=e1088]: "88"
+                        - columnheader "Lead Type":
+                          - generic [ref=e1091]:
+                            - button "Sort Lead Type" [ref=e1092] [cursor=pointer]:
+                              - generic [ref=e1093] [cursor=pointer]: Sort
+                            - button "Show Lead Type Column Actions" [ref=e1097] [cursor=pointer]:
+                              - img [ref=e1099] [cursor=pointer]
+                              - generic [ref=e1102] [cursor=pointer]: Show Lead Type Column Actions
+                            - slider "Lead Type Column Width" [ref=e1103]: "122"
+                        - columnheader "Client Contact":
+                          - generic [ref=e1106]:
+                            - button "Sort Client Contact" [ref=e1107] [cursor=pointer]:
+                              - generic [ref=e1108] [cursor=pointer]: Sort
+                            - button "Show Client Contact Column Actions" [ref=e1112] [cursor=pointer]:
+                              - img [ref=e1114] [cursor=pointer]
+                              - generic [ref=e1117] [cursor=pointer]: Show Client Contact Column Actions
+                            - slider "Client Contact Column Width" [ref=e1118]: "130"
+                        - columnheader "Created Date":
+                          - generic [ref=e1121]:
+                            - button "Sort Created Date" [ref=e1122] [cursor=pointer]:
+                              - generic [ref=e1123] [cursor=pointer]: Sort
+                            - button "Show Created Date Column Actions" [ref=e1127] [cursor=pointer]:
+                              - img [ref=e1129] [cursor=pointer]
+                              - generic [ref=e1132] [cursor=pointer]: Show Created Date Column Actions
+                            - slider "Created Date Column Width" [ref=e1133]: "141"
+                        - columnheader "Last Meaningful Activity Date":
+                          - generic [ref=e1136]:
+                            - button "Sort Last Meaningful Activity Date" [ref=e1137] [cursor=pointer]:
+                              - generic [ref=e1138] [cursor=pointer]: Sort
+                            - button "Show Last Meaningful Activity Date Column Actions" [ref=e1142] [cursor=pointer]:
+                              - img [ref=e1144] [cursor=pointer]
+                              - generic [ref=e1147] [cursor=pointer]: Show Last Meaningful Activity Date Column Actions
+                            - slider "Last Meaningful Activity Date Column Width" [ref=e1148]: "216"
+                        - columnheader "Referred By Consultant":
+                          - generic [ref=e1151]:
+                            - button "Sort Referred By Consultant" [ref=e1152] [cursor=pointer]:
+                              - generic [ref=e1153] [cursor=pointer]: Sort
+                            - generic [ref=e1155]: Sorted Descending
+                            - button "Show Referred By Consultant Column Actions" [ref=e1157] [cursor=pointer]:
+                              - img [ref=e1159] [cursor=pointer]
+                              - generic [ref=e1162] [cursor=pointer]: Show Referred By Consultant Column Actions
+                            - slider "Referred By Consultant Column Width" [ref=e1163]: "189"
+                        - columnheader "Action":
+                          - generic [ref=e1168]: Action
+                    - rowgroup
+                    - rowgroup [ref=e1169]:
+                      - row "JL-09192025-1666362 AutoAPI Job Lead ndayez AutoAPI Account oxheni Ad Chase AutoAPI Client ugfikv 19/09/2025 06:19 Show Actions" [ref=e1170]:
+                        - gridcell [ref=e1171]
+                        - rowheader "JL-09192025-1666362" [ref=e1176]:
+                          - link "JL-09192025-1666362" [ref=e1178] [cursor=pointer]:
+                            - /url: /lightning/r/a1AUF000001il5t2AA/view
+                        - gridcell "AutoAPI Job Lead ndayez" [ref=e1179]:
+                          - link "AutoAPI Job Lead ndayez" [ref=e1182] [cursor=pointer]:
+                            - /url: /a1AUF000001il5t
+                        - gridcell "AutoAPI Account oxheni" [ref=e1183]:
+                          - link "AutoAPI Account oxheni" [ref=e1185] [cursor=pointer]:
+                            - /url: /lightning/r/001UF00000NlT6BYAV/view
+                        - gridcell "Ad Chase" [ref=e1186]:
+                          - generic [ref=e1188]: Ad Chase
+                        - gridcell "AutoAPI Client ugfikv" [ref=e1189]:
+                          - link "AutoAPI Client ugfikv" [ref=e1191] [cursor=pointer]:
+                            - /url: /lightning/r/003UF00000bLWKXYA4/view
+                        - gridcell "19/09/2025 06:19" [ref=e1192]:
+                          - generic [ref=e1194]: 19/09/2025 06:19
+                        - gridcell [ref=e1195]
+                        - gridcell [ref=e1196]
+                        - gridcell "Show Actions" [ref=e1197]:
+                          - button "Show Actions" [ref=e1200] [cursor=pointer]:
+                            - generic [ref=e1201] [cursor=pointer]:
+                              - generic [ref=e1202] [cursor=pointer]:
+                                - img
+                              - generic [ref=e1203] [cursor=pointer]: Show Actions
+                      - row "JL-09192025-1666360 AutoAPI Job Lead fkjyye AutoAPI Account hgmwxc Ad Chase AutoAPI Client lgqqqt 19/09/2025 06:17 19/09/2025 Show Actions" [ref=e1204]:
+                        - gridcell [ref=e1205]
+                        - rowheader "JL-09192025-1666360" [ref=e1210]:
+                          - link "JL-09192025-1666360" [ref=e1212] [cursor=pointer]:
+                            - /url: /lightning/r/a1AUF000001il2f2AA/view
+                        - gridcell "AutoAPI Job Lead fkjyye" [ref=e1213]:
+                          - link "AutoAPI Job Lead fkjyye" [ref=e1216] [cursor=pointer]:
+                            - /url: /a1AUF000001il2f
+                        - gridcell "AutoAPI Account hgmwxc" [ref=e1217]:
+                          - link "AutoAPI Account hgmwxc" [ref=e1219] [cursor=pointer]:
+                            - /url: /lightning/r/001UF00000NlK0AYAV/view
+                        - gridcell "Ad Chase" [ref=e1220]:
+                          - generic [ref=e1222]: Ad Chase
+                        - gridcell "AutoAPI Client lgqqqt" [ref=e1223]:
+                          - link "AutoAPI Client lgqqqt" [ref=e1225] [cursor=pointer]:
+                            - /url: /lightning/r/003UF00000bLKg0YAG/view
+                        - gridcell "19/09/2025 06:17" [ref=e1226]:
+                          - generic [ref=e1228]: 19/09/2025 06:17
+                        - gridcell "19/09/2025" [ref=e1229]:
+                          - generic [ref=e1231]: 19/09/2025
+                        - gridcell [ref=e1232]
+                        - gridcell "Show Actions" [ref=e1233]:
+                          - button "Show Actions" [ref=e1236] [cursor=pointer]:
+                            - generic [ref=e1237] [cursor=pointer]:
+                              - generic [ref=e1238] [cursor=pointer]:
+                                - img
+                              - generic [ref=e1239] [cursor=pointer]: Show Actions
+                      - row "JL-09192025-1666359 AutoAPI Job Lead grkrgy AutoAPI Account bmjllk Ad Chase AutoAPI Client ysycxx 19/09/2025 06:14 19/09/2025 Show Actions" [ref=e1240]:
+                        - gridcell [ref=e1241]
+                        - rowheader "JL-09192025-1666359" [ref=e1246]:
+                          - link "JL-09192025-1666359" [ref=e1248] [cursor=pointer]:
+                            - /url: /lightning/r/a1AUF000001il132AA/view
+                        - gridcell "AutoAPI Job Lead grkrgy" [ref=e1249]:
+                          - link "AutoAPI Job Lead grkrgy" [ref=e1252] [cursor=pointer]:
+                            - /url: /a1AUF000001il13
+                        - gridcell "AutoAPI Account bmjllk" [ref=e1253]:
+                          - link "AutoAPI Account bmjllk" [ref=e1255] [cursor=pointer]:
+                            - /url: /lightning/r/001UF00000NlSgNYAV/view
+                        - gridcell "Ad Chase" [ref=e1256]:
+                          - generic [ref=e1258]: Ad Chase
+                        - gridcell "AutoAPI Client ysycxx" [ref=e1259]:
+                          - link "AutoAPI Client ysycxx" [ref=e1261] [cursor=pointer]:
+                            - /url: /lightning/r/003UF00000bLUVeYAO/view
+                        - gridcell "19/09/2025 06:14" [ref=e1262]:
+                          - generic [ref=e1264]: 19/09/2025 06:14
+                        - gridcell "19/09/2025" [ref=e1265]:
+                          - generic [ref=e1267]: 19/09/2025
+                        - gridcell [ref=e1268]
+                        - gridcell "Show Actions" [ref=e1269]:
+                          - button "Show Actions" [ref=e1272] [cursor=pointer]:
+                            - generic [ref=e1273] [cursor=pointer]:
+                              - generic [ref=e1274] [cursor=pointer]:
+                                - img
+                              - generic [ref=e1275] [cursor=pointer]: Show Actions
+                      - row "JL-09192025-1666358 AutoAPI Job Lead wbrtjs AutoAPI Account uwzqpf Ad Chase AutoAPI Client qdjton 19/09/2025 06:01 19/09/2025 Show Actions" [ref=e1276]:
+                        - gridcell [ref=e1277]
+                        - rowheader "JL-09192025-1666358" [ref=e1282]:
+                          - link "JL-09192025-1666358" [ref=e1284] [cursor=pointer]:
+                            - /url: /lightning/r/a1AUF000001ikzR2AQ/view
+                        - gridcell "AutoAPI Job Lead wbrtjs" [ref=e1285]:
+                          - link "AutoAPI Job Lead wbrtjs" [ref=e1288] [cursor=pointer]:
+                            - /url: /a1AUF000001ikzR
+                        - gridcell "AutoAPI Account uwzqpf" [ref=e1289]:
+                          - link "AutoAPI Account uwzqpf" [ref=e1291] [cursor=pointer]:
+                            - /url: /lightning/r/001UF00000NlSTRYA3/view
+                        - gridcell "Ad Chase" [ref=e1292]:
+                          - generic [ref=e1294]: Ad Chase
+                        - gridcell "AutoAPI Client qdjton" [ref=e1295]:
+                          - link "AutoAPI Client qdjton" [ref=e1297] [cursor=pointer]:
+                            - /url: /lightning/r/003UF00000bLN7EYAW/view
+                        - gridcell "19/09/2025 06:01" [ref=e1298]:
+                          - generic [ref=e1300]: 19/09/2025 06:01
+                        - gridcell "19/09/2025" [ref=e1301]:
+                          - generic [ref=e1303]: 19/09/2025
+                        - gridcell [ref=e1304]
+                        - gridcell "Show Actions" [ref=e1305]:
+                          - button "Show Actions" [ref=e1308] [cursor=pointer]:
+                            - generic [ref=e1309] [cursor=pointer]:
+                              - generic [ref=e1310] [cursor=pointer]:
+                                - img
+                              - generic [ref=e1311] [cursor=pointer]: Show Actions
+                      - row "JL-09192025-1666357 AutoAPI Job Lead hapash AutoAPI Account uqfbor Ad Chase AutoAPI Client yskkzl 19/09/2025 05:59 19/09/2025 Show Actions" [ref=e1312]:
+                        - gridcell [ref=e1313]
+                        - rowheader "JL-09192025-1666357" [ref=e1318]:
+                          - link "JL-09192025-1666357" [ref=e1320] [cursor=pointer]:
+                            - /url: /lightning/r/a1AUF000001ikxp2AA/view
+                        - gridcell "AutoAPI Job Lead hapash" [ref=e1321]:
+                          - link "AutoAPI Job Lead hapash" [ref=e1324] [cursor=pointer]:
+                            - /url: /a1AUF000001ikxp
+                        - gridcell "AutoAPI Account uqfbor" [ref=e1325]:
+                          - link "AutoAPI Account uqfbor" [ref=e1327] [cursor=pointer]:
+                            - /url: /lightning/r/001UF00000NlOwAYAV/view
+                        - gridcell "Ad Chase" [ref=e1328]:
+                          - generic [ref=e1330]: Ad Chase
+                        - gridcell "AutoAPI Client yskkzl" [ref=e1331]:
+                          - link "AutoAPI Client yskkzl" [ref=e1333] [cursor=pointer]:
+                            - /url: /lightning/r/003UF00000bLR6MYAW/view
+                        - gridcell "19/09/2025 05:59" [ref=e1334]:
+                          - generic [ref=e1336]: 19/09/2025 05:59
+                        - gridcell "19/09/2025" [ref=e1337]:
+                          - generic [ref=e1339]: 19/09/2025
+                        - gridcell [ref=e1340]
+                        - gridcell "Show Actions" [ref=e1341]:
+                          - button "Show Actions" [ref=e1344] [cursor=pointer]:
+                            - generic [ref=e1345] [cursor=pointer]:
+                              - generic [ref=e1346] [cursor=pointer]:
+                                - img
+                              - generic [ref=e1347] [cursor=pointer]: Show Actions
+                  - generic:
+                    - status
+            - article [ref=e1350]:
+              - generic [ref=e1351]:
+                - heading "Today’s Tasks" [level=2] [ref=e1354]
+                - button "Select a view of your tasks" [ref=e1358] [cursor=pointer]:
+                  - img [ref=e1360] [cursor=pointer]
+                  - generic [ref=e1363] [cursor=pointer]: Select a view of your tasks
+              - list [ref=e1367]:
+                - listitem [ref=e1368]:
+                  - generic [ref=e1369]:
+                    - generic [ref=e1373]:
+                      - checkbox "The Placement for AutoAPI Candidate owgqtr will be Starting Today." [ref=e1374]
+                      - generic [ref=e1376]: The Placement for AutoAPI Candidate owgqtr will be Starting Today.
+                    - generic [ref=e1377]:
+                      - generic [ref=e1379]: Today
+                      - generic [ref=e1381]:
+                        - link "0053L000003oyYnQAI" [ref=e1385] [cursor=pointer]:
+                          - /url: /lightning/r/00TUF00000DpNfp2AF/view
+                          - generic "0053L000003oyYnQAI" [ref=e1386] [cursor=pointer]:
+                            - link "QA AUTO UK FE MAIN" [ref=e1387] [cursor=pointer]:
+                              - /url: /lightning/r/0053L000003oyYnQAI/view
+                            - text: ","
+                            - generic [ref=e1388] [cursor=pointer]: 19/09/2025 10:20
+                        - list [ref=e1389]:
+                          - listitem [ref=e1390]:
+                            - generic [ref=e1391]: The Placement for AutoAPI Candidate owgqtr will be Starting Today.
+                            - text: ·
+                          - listitem [ref=e1392]:
+                            - link "CL-09192025-3275398" [ref=e1394] [cursor=pointer]:
+                              - /url: /lightning/r/a0SUF0000029AVF2A2/view
+                - listitem [ref=e1395]:
+                  - generic [ref=e1396]:
+                    - generic [ref=e1400]:
+                      - checkbox "The Placement for AutoAPI Candidate owgqtr will be Starting Today." [ref=e1401]
+                      - generic [ref=e1403]: The Placement for AutoAPI Candidate owgqtr will be Starting Today.
+                    - generic [ref=e1404]:
+                      - generic [ref=e1406]: Today
+                      - generic [ref=e1408]:
+                        - link "0053L000003oyYnQAI" [ref=e1412] [cursor=pointer]:
+                          - /url: /lightning/r/00TUF00000DpNKr2AN/view
+                          - generic "0053L000003oyYnQAI" [ref=e1413] [cursor=pointer]:
+                            - link "QA AUTO UK FE MAIN" [ref=e1414] [cursor=pointer]:
+                              - /url: /lightning/r/0053L000003oyYnQAI/view
+                            - text: ","
+                            - generic [ref=e1415] [cursor=pointer]: 19/09/2025 10:15
+                        - list [ref=e1416]:
+                          - listitem [ref=e1417]:
+                            - generic [ref=e1418]: The Placement for AutoAPI Candidate owgqtr will be Starting Today.
+                            - text: ·
+                          - listitem [ref=e1419]:
+                            - link "CL-09192025-3275397" [ref=e1421] [cursor=pointer]:
+                              - /url: /lightning/r/a0SUF0000029AQP2A2/view
+                - listitem [ref=e1422]:
+                  - generic [ref=e1423]:
+                    - generic [ref=e1427]:
+                      - checkbox "The Placement for AutoAPI Candidate wczjio will be Starting Today." [ref=e1428]
+                      - generic [ref=e1430]: The Placement for AutoAPI Candidate wczjio will be Starting Today.
+                    - generic [ref=e1431]:
+                      - generic [ref=e1433]: Today
+                      - generic [ref=e1435]:
+                        - link "0053L000003oyYnQAI" [ref=e1439] [cursor=pointer]:
+                          - /url: /lightning/r/00TUF00000DpN372AF/view
+                          - generic "0053L000003oyYnQAI" [ref=e1440] [cursor=pointer]:
+                            - link "QA AUTO UK FE MAIN" [ref=e1441] [cursor=pointer]:
+                              - /url: /lightning/r/0053L000003oyYnQAI/view
+                            - text: ","
+                            - generic [ref=e1442] [cursor=pointer]: 19/09/2025 10:11
+                        - list [ref=e1443]:
+                          - listitem [ref=e1444]:
+                            - generic [ref=e1445]: The Placement for AutoAPI Candidate wczjio will be Starting Today.
+                            - text: ·
+                          - listitem [ref=e1446]:
+                            - link "CL-09192025-3275396" [ref=e1448] [cursor=pointer]:
+                              - /url: /lightning/r/a0SUF0000029ANB2A2/view
+                - listitem [ref=e1449]:
+                  - generic [ref=e1450]:
+                    - generic [ref=e1454]:
+                      - checkbox "The Placement for AutoAPI Candidate wczjio will be Starting Today." [ref=e1455]
+                      - generic [ref=e1457]: The Placement for AutoAPI Candidate wczjio will be Starting Today.
+                    - generic [ref=e1458]:
+                      - generic [ref=e1460]: Today
+                      - generic [ref=e1462]:
+                        - link "0053L000003oyYnQAI" [ref=e1466] [cursor=pointer]:
+                          - /url: /lightning/r/00TUF00000DpL1M2AV/view
+                          - generic "0053L000003oyYnQAI" [ref=e1467] [cursor=pointer]:
+                            - link "QA AUTO UK FE MAIN" [ref=e1468] [cursor=pointer]:
+                              - /url: /lightning/r/0053L000003oyYnQAI/view
+                            - text: ","
+                            - generic [ref=e1469] [cursor=pointer]: 19/09/2025 10:07
+                        - list [ref=e1470]:
+                          - listitem [ref=e1471]:
+                            - generic [ref=e1472]: The Placement for AutoAPI Candidate wczjio will be Starting Today.
+                            - text: ·
+                          - listitem [ref=e1473]:
+                            - link "CL-09192025-3275395" [ref=e1475] [cursor=pointer]:
+                              - /url: /lightning/r/a0SUF0000029ALZ2A2/view
+                - listitem [ref=e1476]:
+                  - generic [ref=e1477]:
+                    - generic [ref=e1481]:
+                      - checkbox "The Placement for AutoAPI Candidate ppmgdv will be Starting Today." [ref=e1482]
+                      - generic [ref=e1484]: The Placement for AutoAPI Candidate ppmgdv will be Starting Today.
+                    - generic [ref=e1485]:
+                      - generic [ref=e1487]: Today
+                      - generic [ref=e1489]:
+                        - link "0053L000003oyZHQAY" [ref=e1493] [cursor=pointer]:
+                          - /url: /lightning/r/00TUF00000DpHvO2AV/view
+                          - generic "0053L000003oyZHQAY" [ref=e1494] [cursor=pointer]:
+                            - link "QA AUTO UK FIN" [ref=e1495] [cursor=pointer]:
+                              - /url: /lightning/r/0053L000003oyZHQAY/view
+                            - text: ","
+                            - generic [ref=e1496] [cursor=pointer]: 19/09/2025 10:03
+                        - list [ref=e1497]:
+                          - listitem [ref=e1498]:
+                            - generic [ref=e1499]: The Placement for AutoAPI Candidate ppmgdv will be Starting Today.
+                            - text: ·
+                          - listitem [ref=e1500]:
+                            - link "CL-09192025-3275394" [ref=e1502] [cursor=pointer]:
+                              - /url: /lightning/r/a0SUF0000029AGj2AM/view
+              - button "View All Tasks" [ref=e1504] [cursor=pointer]:
+                - generic [ref=e1505] [cursor=pointer]: View All
+            - article [ref=e1508]:
+              - heading "Today's Events" [level=2] [ref=e1512]
+              - generic [ref=e1517]:
+                - img [ref=e1518]
+                - generic [ref=e1519]: Looks like you're free and clear the rest of the day.
+              - button "View Calendar" [ref=e1521] [cursor=pointer]:
+                - generic [ref=e1522] [cursor=pointer]: View Calendar
+            - article [ref=e1524]:
+              - heading "My Active Team" [level=2] [ref=e1528]:
+                - generic [ref=e1529]: My Active Team
+              - table [ref=e1531]:
+                - rowgroup [ref=e1532]:
+                  - row [ref=e1535]:
+                    - cell [ref=e1536]:
+                      - radiogroup [ref=e1538]:
+                        - generic [ref=e1540]:
+                          - generic [ref=e1541]:
+                            - radio "MP-FIN-Lima - Finance 001" [ref=e1542]
+                            - generic [ref=e1545]: MP-FIN-Lima - Finance 001
+                          - generic [ref=e1546]:
+                            - radio "Applications Global - Project Delivery - London" [checked] [ref=e1547]
+                            - generic [ref=e1550]: Applications Global - Project Delivery - London
+                  - row:
+                    - cell
+                  - row
+                  - row "Save Reset" [ref=e1551]:
+                    - cell "Save Reset" [ref=e1552]:
+                      - button "Save" [ref=e1553] [cursor=pointer]
+                      - button "Reset" [ref=e1554] [cursor=pointer]
+    - generic:
+      - contentinfo "Utility Bar":
+        - list [ref=e1557]:
+          - listitem [ref=e1558]:
+            - button "PE_Sub_Comp" [ref=e1561] [cursor=pointer]:
+              - img [ref=e1565] [cursor=pointer]
+              - generic [ref=e1568] [cursor=pointer]: PE_Sub_Comp
+          - listitem [ref=e1569]:
+            - button "Incoming SMS" [ref=e1572] [cursor=pointer]:
+              - img [ref=e1576] [cursor=pointer]
+              - generic [ref=e1579] [cursor=pointer]: Incoming SMS
+  - generic:
+    - status
+```

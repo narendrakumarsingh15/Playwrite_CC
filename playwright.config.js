@@ -23,7 +23,15 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
+<<<<<<< HEAD
   reporter: 'html',
+=======
+  reporter: [
+  ['html'],
+  ['list'],
+  ['allure-playwright']
+],
+>>>>>>> 792efb4 (Made script name changes)
    timeout: 60000,
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
@@ -37,6 +45,7 @@ export default defineConfig({
 
   /* Configure projects for major browsers */
   projects: [
+<<<<<<< HEAD
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
@@ -52,6 +61,9 @@ export default defineConfig({
       use: { ...devices['Desktop Safari'] },
     },
 
+=======
+    
+>>>>>>> 792efb4 (Made script name changes)
     /* Test against mobile viewports. */
     // {
     //   name: 'Mobile Chrome',
@@ -70,7 +82,11 @@ export default defineConfig({
     {
        name: 'Google Chrome',
        use: { channel: 'chrome', 
+<<<<<<< HEAD
         viewport:{width: 1920,height:1080},
+=======
+       viewport:{width: 1920,height:1080},
+>>>>>>> 792efb4 (Made script name changes)
 
        },
        
